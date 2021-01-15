@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #5e98a4;
+}
+
+.container-fluid {
+    display: flex;
+    height: 100%;
+    padding:0;
+}
+
+section{
+    height: 100%;
+}
+
+#list{
+    flex: 2;
+}
+
+#details{
+    flex: 1;
+    background-color: #dfc8c8;
+}
+
+.red {
+    background-color: red;
+}
+
+#btnDetails i {
+    margin-right: 5px;
+}
+
+.control {
+    display: block;
+}
+
+.control label{
+    display:block;
+}
+
+#iconImp {
+    font-size: 25px;
+    color: #117a8b
+}
+
+#iconImp.fas{
+    color:coral;
+}
+
+.lblDesc {
+    display: block;
+}
+
